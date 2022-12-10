@@ -3,24 +3,17 @@
  * main - print sizes of datatypes in c
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int a;
 	long int b;
 	long long int c;
 	char d;
-	float e;
-	printf("size of char: %lu byte(S)\n",(unsigned long)sizeof(d));
-	printf("size of int: %lu byte(S)\n",(unsigned long)sizeof(a));
-        printf("size of long int: %lu byte(S)\n",(unsigned long)sizeof(b));
-        printf("size of long long int: %lu byte(S)\n",(unsigned long)sizeof(c));
-        printf("size of float: %lu byte(S)\n",(unsigned long)sizeof(e));
-}	
-
-
-
-
-
-
-
-
+	float e;	
+	printf("Size of a char: %lu byte(S)\n", (unsigned long)sizeof(d));
+	printf("Size of an  int: %lu byte(S)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(S)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(S)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(S)\n", (unsigned long)sizeof(e));
+	return (0);
+}
