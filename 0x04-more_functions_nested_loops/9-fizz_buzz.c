@@ -3,10 +3,12 @@
 
 /**
  * main - print fiz buzz on multiple of 3 and 5
- *
- * Return Always 0 
+ * Description - prints fiz for multiples of 3
+ * buzz for multiples of 5 and fizzbuzz for multiples of both
+ * otherwhise prints the number
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int n;
 
