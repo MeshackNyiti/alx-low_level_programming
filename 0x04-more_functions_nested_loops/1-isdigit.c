@@ -6,9 +6,9 @@
  *
  * Return: 1 for the digit else return 0
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	if (x >= 48 && x <= 57)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
